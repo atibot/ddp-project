@@ -8,7 +8,7 @@ shinyUI(fluidPage(
     sidebarPanel(
       helpText("According to the checkbox(On/Off), 
                 create and display a monthly stock price chart or
-                a monthly return chart of the company specified with it's SYMBOL.
+                a monthly return chart of the company specified with its SYMBOL.
                 Information will be collected from Yahoo! in the period from 
                 1998-01-01 to 2014-10-31"),
       
@@ -24,7 +24,7 @@ shinyUI(fluidPage(
       #       hr(),
       #       fluidRow(column(3, verbatimTextOutput("check")))
       p("If checked (On), a chart of monthly continuously compounded returns is displayed 
-        along with the expected anual return and volatility in %.
+        along with the expected annual return and volatility in %.
         The red horizaontal line shows the mean of monthly returns.")
     ),
     

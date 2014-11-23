@@ -40,7 +40,7 @@ shinyServer(
         chart.TimeSeries(returns, legend.loc="bottom",
                          main=paste("Monthly Continuously Compounded Returns \n",
                                     "[", isolate(input$symbol), "]", 
-                                    "Expected anual return =",
+                                    "Expected annual return =",
                                     round(mean(returns)*12*100, 2),"%",
                                     "Volatility =",
                                     round(sd(returns)*sqrt(12)*100, 2),"%"),
